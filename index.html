@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        body{
+            background-color: rgb(10, 10, 10);
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .auth{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        .login{
+            background-color: rgb(20, 20, 20);
+            padding: 50px;
+            border-radius: 6px;
+        }
+
+        .auth button{
+            margin-right: 15px;
+        }
+
+        .logo{
+            text-align: center;
+        }
+
+        .login form{
+            display: flex;
+            flex-direction: column;
+        }
+
+        .login input{
+            margin-top: 10px;
+            background-color: rgb(10, 10, 10);
+            border: none;
+            padding: 5px;
+            height: 24px;
+        }
+
+        .login a{
+            text-decoration: none;
+            color: rgb(66, 64, 212);
+        }
+
+        .login form a{
+            font-size: 13px;
+            text-align: left;
+            text-decoration: none;
+            color: rgb(58, 67, 95);
+        }
+
+        .buttons{
+            display: flex;
+            align-items: center;
+            margin-top: 15px;
+        }
+
+        .buttons button{
+            
+            padding: 5px 15px 5px 15px;
+            border: none;
+            background-color: rgb(59, 59, 182);
+            color: white;
+            border-radius: 2px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <section class="auth">
+        <div class="login">
+            <div class="logo">
+                <img src="https://trivalent.tech/assets/img/trivalent/logo.png" height="48px">
+                <h2>Login</h2>
+            </div>
+            
+            <form>
+                <input type="text" placeholder="Username or Email">
+                <input type="password" placeholder="Password">
+                <a href="password-recovery.html">Forgot your password?</a>
+            </form>
+
+            
+
+            <div class="buttons">
+                <button>Sign in</button>
+                <p>Or <a href="signup.html">Create Account</a></p>
+            </div>
+
+        </div>
+
+    </div>
+</body>
+</html>
